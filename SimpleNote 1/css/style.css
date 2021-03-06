@@ -1,0 +1,58 @@
+* {
+  font-family: "Google Sans", sans-serif;
+}
+
+body {
+  background-color: #121212;
+  margin: 15px;
+}
+p {
+  color: #f7f7f75e;
+  font-size: 1.4rem;
+  cursor: default;
+  font-weight: 400;
+  line-height: 1.7rem;
+  text-align: center;
+  margin-top: 21rem;
+  text-shadow: 5px 3px 10px #000000;
+}
+#search_div {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  left: 8px;
+  margin: 10px auto;
+  width: 95%;
+  height: 45px;
+  background-color: #2e2e2e69;
+  border-radius: 7px;
+}
+#search_div #search_img {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 30px;
+  padding: 5px 5px;
+}
+#search_div #search_text {
+  background-color: #00000000;
+  border: none;
+  text-overflow: clip;
+  overflow: hidden;
+  color: #e7e7e7e5;
+  padding: 0px 55px;
+  font-size: 1.2rem;
+  width: 70%;
+  height: 45px;
+  outline: none;
+}
+
+#add_btn {
+  position: fixed;
+  padding-top: -2px;
+  text-shadow: 2px 2px 1px #000000;
+  right: 40px;
+  bottom: 50px;
+  width: 50px;
+  z-index: 2;
+}
