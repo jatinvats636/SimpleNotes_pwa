@@ -42,6 +42,23 @@ header {
   transition-timing-function: ease-in;
 }
 
+#form {
+  position: relative;
+  border: none;
+  margin: 1px;
+  border-radius: 8px;
+  transition-duration: 0.218s;
+  transition-property: background, border, opacity, box-shadow, transform;
+  transition-timing-function: ease-in;
+}
+
+#placeholder {
+  margin-top: 10vh !important;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 #placeholderText {
   color: #f7f7f75e;
   font-size: 1.4rem;
