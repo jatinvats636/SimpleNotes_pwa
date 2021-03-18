@@ -7,7 +7,7 @@
 
 body,
 html {
-  background-color: #121212;
+  background-color: #151515;
   margin: 0;
   padding: 0;
 }
@@ -26,6 +26,7 @@ header {
 
 #headerTitle {
   color: rgba(255, 255, 255, 0.808);
+  text-shadow: 3px 3px 10px #000000;
   font-size: 2em;
 }
 
@@ -36,9 +37,10 @@ header {
   font-weight: 400;
   line-height: 1.7rem;
   text-align: center;
-  margin-top: 21rem;
+  margin-top: 17rem;
   text-shadow: 5px 3px 10px #000000;
 }
+
 /* #search_div {
   position: absolute;
   top: 8px;
