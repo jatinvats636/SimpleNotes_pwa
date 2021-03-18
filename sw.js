@@ -1,5 +1,11 @@
 var cacheName = "simple-note-pwa";
-var filesToCache = ["/", "/index.html", "/css/style.css", "/js/function.js"];
+var filesToCache = [
+  "/",
+  "/images/",
+  "/index.html",
+  "/css/style.css",
+  "/js/function.js",
+];
 
 /* Start the service worker and cache all of the app's content */
 self.addEventListener("install", function (e) {
