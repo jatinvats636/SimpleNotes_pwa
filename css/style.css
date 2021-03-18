@@ -25,11 +25,11 @@ header {
 }
 
 #headerTitle {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.808);
   font-size: 2em;
 }
 
-p {
+#placeholderText {
   color: #f7f7f75e;
   font-size: 1.4rem;
   cursor: default;
@@ -39,7 +39,7 @@ p {
   margin-top: 21rem;
   text-shadow: 5px 3px 10px #000000;
 }
-#search_div {
+/* #search_div {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -68,7 +68,7 @@ p {
   width: 70%;
   height: 45px;
   outline: none;
-}
+} */
 
 #add_btn {
   position: fixed;
