@@ -52,6 +52,22 @@ header {
   transition-timing-function: ease-in;
 }
 
+#noteTitle {
+  text-align: left;
+}
+
+#noteDes {
+  text-align: center;
+}
+
+#submitButton {
+  text-align: right;
+}
+
+#closeButton {
+  text-align: right;
+}
+
 #placeholder {
   margin-top: 10vh !important;
   display: flex;
