@@ -17,7 +17,6 @@ class App {
   addEventListeners() {
     document.body.addEventListener("click", (event) => {
       this.handleFormClick(event);
-      this.selectNote(event);
     });
 
     document.body.addEventListener("mouseover", (event) => {
@@ -75,15 +74,6 @@ class App {
     this.notes = [...this.notes, newNote];
     this.render();
     this.closeForm();
-  }
-
-  selectNote(event) {
-    const $selectedNote = event.target.closest(".note");
-    if (!$selectedNote) return;
-    const [$noteTitle, $noteText] = $selectedNote.children;
-    this.title = $noteTitle.innerText;
-    this.text = $noteText.innerText;
-    this.id = $selectedNote.dataset.id;
   }
 
   render() {
