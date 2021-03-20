@@ -11,11 +11,9 @@ class App {
     this.$noteTitle = document.querySelector("#noteTitle");
     this.$noteText = document.querySelector("#noteText");
     this.$formButtons = document.querySelector("#form-buttons");
-    this.$CloseBtn = document.querySelector("#closeBtn");
     this.$modal = document.querySelector(".modal");
     this.$modalTitle = document.querySelector(".modal-title");
     this.$modalText = document.querySelector(".modal-text");
-    this.$modalCloseButton = document.querySelector(".modal-close-button");
     this.render();
     this.addEventListeners();
   }
@@ -32,10 +30,6 @@ class App {
       this.openTooltip(event);
     });
 
-    document.body.addEventListener("mouseout", (event) => {
-      this.closeTooltip(event);
-    });
-
     this.$form.addEventListener("submit", (event) => {
       event.preventDefault();
       const title = this.$noteTitle.value;
@@ -45,15 +39,6 @@ class App {
         // add note
         this.addNote({ title, text });
       }
-    });
-
-    this.$CloseBtn.addEventListener("click", (event) => {
-      event.stopPropagation();
-      this.closeForm();
-    });
-
-    this.$modalCloseButton.addEventListener("click", (event) => {
-      this.closeModal(event);
     });
   }
 
@@ -101,21 +86,6 @@ class App {
     this.editNote();
     this.$modal.classList.toggle("open-modal");
   }
-
-  // openTooltip(event) {
-  //   if (!event.target.matches(".toolbar-color")) return;
-  //   this.id = event.target.dataset.id;
-  //   const noteCoords = event.target.getBoundingClientRect();
-  //   const horizontal = noteCoords.left + window.scrollX;
-  //   const vertical = noteCoords.top + window.scrollY;
-  //   this.$colorTooltip.style.transform = `translate(${horizontal}px, ${vertical}px)`;
-  //   this.$colorTooltip.style.display = "flex";
-  // }
-
-  // closeTooltip(event) {
-  //   if (!event.target.matches(".toolbar-color")) return;
-  //   this.$colorTooltip.style.display = "none";
-  // }
 
   addNote({ title, text }) {
     const newNote = {
@@ -183,16 +153,6 @@ class App {
         }">
           <div class="${note.title && "note-title"}">${note.title}</div>
           <div class="note-text">${note.text}</div>
-          <div class="toolbar-container">
-            <div class="toolbar">
-              <img class="toolbar-color" data-id=${
-                note.id
-              } src="https://icon.now.sh/palette">
-              <img data-id=${
-                note.id
-              } class="toolbar-delete" src="https://icon.now.sh/delete">
-            </div>
-          </div>
         </div>
      `
       )
