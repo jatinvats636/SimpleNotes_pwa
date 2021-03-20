@@ -168,7 +168,7 @@ input:focus {
   flex-direction: column;
 }
 
-#form-buttons {
+#formBtn {
   display: none;
   text-align: right;
 }
@@ -176,7 +176,8 @@ input:focus {
 #submitBtn {
   margin: 5px;
   box-sizing: border-box;
-  color: rgba(0, 0, 0, 0.87);
+  color: #fff;
+  background-color: #007bff;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -188,13 +189,6 @@ input:focus {
   padding: 8px 24px;
   border-radius: 4px;
   border-color: transparent !important;
-  background-color: rgb(251, 251, 251);
-}
-
-#submitBtn {
-  margin: 5px;
-  color: #fff;
-  background-color: #007bff;
 }
 
 .note {
