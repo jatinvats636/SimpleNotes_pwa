@@ -108,13 +108,6 @@ class App {
     this.render();
   }
 
-  // editNoteColor(color) {
-  //   this.notes = this.notes.map((note) =>
-  //     note.id === Number(this.id) ? { ...note, color } : note
-  //   );
-  //   this.render();
-  // }
-
   selectNote(event) {
     const $selectedNote = event.target.closest(".note");
     if (!$selectedNote) return;
