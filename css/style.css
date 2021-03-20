@@ -52,18 +52,6 @@ header {
   transition-timing-function: ease-in;
 }
 
-#noteTitle {
-  display: none;
-  width: calc(100% - 10px);
-  min-height: 43px;
-  margin: 0 5px;
-  padding: 10px 10px;
-  font-size: 1rem;
-  font-weight: 500;
-  line-height: 1.5rem;
-  border: 0;
-}
-
 #noteDes {
   width: calc(100% - 10px);
   min-height: 43px;
@@ -77,6 +65,18 @@ header {
   border: 0;
   overflow: hidden;
   position: relative;
+}
+
+#noteTitle {
+  display: none;
+  width: calc(100% - 10px);
+  min-height: 43px;
+  margin: 0 5px;
+  padding: 10px 10px;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  border: 0;
 }
 
 #formButtons {
