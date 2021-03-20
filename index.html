@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google+Sans:400,500&display=swap">
   <meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=no'>
   <link rel='stylesheet' type='text/css' media='screen' href='/css/style.css'>
-  <link rel="manifest" href="/manifest.json">
+  <!-- <link rel="manifest" href="/manifest.json">
   <link rel="icon" href="/images/logo446.png" type="image/x-icon" />
   <link rel="apple-touch-icon" href="/images/logo446.png">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -16,7 +16,7 @@
   <meta name="apple-mobile-web-app-title" content="SimpleNote">
   <meta name="msapplication-TileImage" content="/images/logo446.png">
   <meta name="msapplication-TileColor" content="#FFFFFF">
-  <meta name="theme-color" content="black" />
+  <meta name="theme-color" content="black" /> -->
 </head>
 
 <body>
@@ -30,7 +30,7 @@
     <input type="text" id="search_text" placeholder="Search your notes" autocomplete="off">
   </div> -->
   <main>
-    <div id="formContainer">
+    <!-- <div id="formContainer">
       <form id="form" autocomplete="off">
         <input id="noteTitle" placeholder="Title" type="text">
         <input id="noteDes" placeholder="Description" type="text">
@@ -39,12 +39,23 @@
           <button type="button" id="closeButton">Close</button>
         </div>
       </form>
+    </div> -->
+    <div id="form-container">
+      <form id="form" autocomplete="off">
+        <input id="note-title" placeholder="Title" type="text">
+        <input id="note-text" placeholder="Take a note..." type="text">
+        <div id="form-buttons">
+          <button type="submit" id="submit-button">Submit</button>
+          <button type="button" id="form-close-button">Close</button>
+        </div>
+      </form>
     </div>
     <div id="notes"></div>
     <div id="placeholder">
+      <img src="/images/logo223.png" alt="placeholderLogo" id="placeholderLogo">
       <p id="placeholderText">Notes you add appear here</p>
     </div>
-    <img id="add_btn" onclick="addNewNote()" src="/images/pencil.png">
+    <!-- <img id="add_btn" onclick="addNewNote()" src="/images/pencil.png"> -->
   </main>
   <script src="/js/function.js"></script>
   <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react.min.js'></script>

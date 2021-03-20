@@ -30,7 +30,7 @@ header {
   font-size: 2em;
 }
 
-#formContainer {
+/* #formContainer {
   border-radius: 8px;
   border: 0.5px solid #070707;
   box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302),
@@ -60,7 +60,7 @@ header {
   font-size: 1rem;
   font-weight: 500;
   line-height: 1.5rem;
-  /* box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2); */
+  // box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
   letter-spacing: 0.00625em;
   border: 0;
   overflow: hidden;
@@ -90,13 +90,19 @@ header {
 
 #closeButton {
   text-align: right;
-}
+} */
 
 #placeholder {
   margin-top: 10vh !important;
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+
+#placeholderLogo {
+  height: 120px;
+  margin: 20px;
+  opacity: 0.5;
 }
 
 #placeholderText {
@@ -106,7 +112,7 @@ header {
   font-weight: 400;
   line-height: 1.7rem;
   text-align: center;
-  margin-top: 9em;
+  margin-top: 1em;
   text-shadow: 5px 3px 10px #000000;
 }
 
@@ -140,7 +146,7 @@ header {
   height: 45px;
   outline: none;
 } */
-
+/* 
 #add_btn {
   position: fixed;
   padding-top: -2px;
@@ -149,8 +155,8 @@ header {
   bottom: 50px;
   width: 50px;
   z-index: 2;
-}
-@media only screen and (min-width: 768px) {
+} */
+/* @media only screen and (min-width: 768px) {
   #add_btn {
     display: none;
     position: fixed;
@@ -161,4 +167,4 @@ header {
     width: 50px;
     z-index: 2;
   }
-}
+} */
