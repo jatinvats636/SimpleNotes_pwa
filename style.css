@@ -286,11 +286,11 @@ input:focus {
   opacity: 0.71;
 }
 
-.toolbar-color-modal {
+/* .toolbar-color-modal {
   display: none;
-}
+} */
 
-#color-tooltip {
+/* #color-tooltip {
   border-bottom: 2px solid #fff;
   position: absolute;
   top: -40;
@@ -305,9 +305,9 @@ input:focus {
   width: 136px;
   height: 40px;
   justify-content: space-between;
-}
+} */
 
-.color-option {
+/* .color-option {
   width: 25px;
   height: 25px;
   border-radius: 50%;
@@ -316,7 +316,7 @@ input:focus {
 
 .color-option:hover {
   border: 1px solid black;
-}
+} */
 
 .modal {
   position: fixed;
