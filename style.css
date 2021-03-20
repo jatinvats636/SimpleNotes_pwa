@@ -17,10 +17,10 @@ body {
   padding: 0;
 }
 
-main {
+/* main {
   margin: 0 auto;
   max-width: 900px;
-}
+} */
 
 #placeholder {
   margin-top: 10vh !important;
@@ -96,6 +96,7 @@ header {
 }
 
 #noteText {
+  display: none;
   width: calc(100% - 10px);
   min-height: 43px;
   margin: 0 5px;
@@ -147,7 +148,6 @@ header {
 }
 
 #noteTitle {
-  display: none;
   width: calc(100% - 10px);
   min-height: 43px;
   margin: 0 5px;
