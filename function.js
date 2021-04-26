@@ -55,7 +55,7 @@ class App {
     this.$noteText.style.display = "block";
     this.$formBtn.style.display = "block";
   }
-
+  // to close form
   closeForm() {
     this.$form.classList.remove("form-open");
     this.$noteText.style.display = "none";
