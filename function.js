@@ -151,6 +151,14 @@ class App {
     this.id = $selectedNote.dataset.id;
   }
 
+  deleteNote(event) {
+    event.stopPropagation();
+    if (!event.target.matches(".toolbar-delete")) return;
+    const id = event.target.dataset.id;
+    this.notes = this.notes.filter((note) => note.id !== Number(id));
+    this.render();
+  }
+
   displayNotes() {
     const hasNotes = this.notes.length > 0;
     this.$placeholder.style.display = hasNotes ? "none" : "flex";
