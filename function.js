@@ -30,6 +30,10 @@ class App {
       this.openTooltip(event);
     });
 
+    document.body.addEventListener("mouseout", (event) => {
+      this.closeTooltip(event);
+    });
+
     this.$form.addEventListener("submit", (event) => {
       event.preventDefault();
       const title = this.$noteTitle.value;
