@@ -177,7 +177,7 @@ class App {
               } src="https://icon.now.sh/palette">
               <img data-id=${
                 note.id
-              } class="toolbar-delete" src="https://icon.now.sh/delete">
+              } class="toolbar-delete" src="https://www.flaticon.com/svg/vstatic/svg/1632/1632602.svg?token=exp=1619620073~hmac=8075eacc0ab2b9c85bf7817caab3c8ea">
             </div>
           </div>
         </div>
