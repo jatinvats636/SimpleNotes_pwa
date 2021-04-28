@@ -126,6 +126,13 @@ class App {
     this.render();
   }
 
+  editNoteColor(color) {
+    this.notes = this.notes.map((note) =>
+      note.id === Number(this.id) ? { ...note, color } : note
+    );
+    this.render();
+  }
+
   render() {
     this.saveNotes();
     this.displayNotes();
