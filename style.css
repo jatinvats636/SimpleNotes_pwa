@@ -360,3 +360,23 @@ input:focus {
   width: 24rem;
   border-radius: 0.5rem;
 }
+
+.modal-close-button {
+  float: right;
+  margin: 0.2em 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.87);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  letter-spacing: 0.01785714em;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+  height: 36px;
+  padding: 8px 24px;
+  border-radius: 4px;
+  border-color: transparent !important;
+  background-color: rgb(251, 251, 251);
+  cursor: pointer;
+}
