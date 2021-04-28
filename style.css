@@ -190,6 +190,10 @@ input:focus {
   border-color: transparent !important;
 }
 
+#submitBtn:hover {
+  filter: brightness(95%);
+}
+
 .note {
   display: flex;
   flex-direction: column;
