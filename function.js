@@ -10,6 +10,10 @@ class App {
     this.$noteTitle = document.querySelector("#noteTitle");
     this.$noteText = document.querySelector("#noteText");
     this.$formBtn = document.querySelector("#formBtn");
+    this.$modal = document.querySelector(".modal");
+    this.$modalTitle = document.querySelector(".modal-title");
+    this.$modalText = document.querySelector(".modal-text");
+    this.$colorTooltip = document.querySelector("#color-tooltip");
     this.render();
     this.addEventListeners();
   }
