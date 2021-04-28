@@ -290,3 +290,14 @@ input:focus {
 .toolbar:hover {
   opacity: 1;
 }
+
+.toolbar-color,
+.toolbar-delete {
+  height: 20px;
+  margin: 0 8px;
+  width: 20px;
+  margin: 0 3px;
+  cursor: pointer;
+  color: #202124;
+  opacity: 0.71;
+}
