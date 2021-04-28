@@ -174,10 +174,10 @@ class App {
             <div class="toolbar">
               <img class="toolbar-color" data-id=${
                 note.id
-              } src="https://icon.now.sh/palette">
+              } src="https://www.flaticon.com/svg/vstatic/svg/1158/1158130.svg?token=exp=1619620368~hmac=817f217dc2d9e8de6ac167e7bea3b2c6">
               <img data-id=${
                 note.id
-              } class="toolbar-delete" src="https://www.flaticon.com/svg/vstatic/svg/1632/1632602.svg?token=exp=1619620073~hmac=8075eacc0ab2b9c85bf7817caab3c8ea">
+              } class="toolbar-delete" src="https://www.flaticon.com/svg/vstatic/svg/1828/1828843.svg?token=exp=1619620294~hmac=47cdcfae48048c6551966de960976edd">
             </div>
           </div>
         </div>
