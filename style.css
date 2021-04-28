@@ -322,3 +322,10 @@ input:focus {
   height: 40px;
   justify-content: space-between;
 }
+
+.color-option {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid #dedede;
+}
