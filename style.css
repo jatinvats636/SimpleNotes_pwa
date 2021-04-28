@@ -392,14 +392,14 @@ input:focus {
   transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
 }
 
-#white {
-  background: white;
+#med-color {
+  background: #fed250;
 }
 
-#purple {
-  background: #d7aefb;
+#high-color {
+  background: #f78888;
 }
 
-#orange {
-  background: #fbbc04;
+#low-color {
+  background: #90ccf4;
 }
