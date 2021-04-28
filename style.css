@@ -384,3 +384,26 @@ input:focus {
 .modal-close-button:hover {
   background-color: rgba(95, 99, 104, 0.039);
 }
+
+.open-modal {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+  transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
+
+#white {
+  background: white;
+}
+
+#purple {
+  background: #d7aefb;
+}
+
+#orange {
+  background: #fbbc04;
+}
+
+#teal {
+  background: #a7ffeb;
+}
