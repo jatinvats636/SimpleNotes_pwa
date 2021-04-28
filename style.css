@@ -286,3 +286,7 @@ input:focus {
   transition: opacity 0.218s ease-in-out, background-color 0.218s ease-in-out,
     box-shadow 0.218s ease-in-out;
 }
+
+.toolbar:hover {
+  opacity: 1;
+}
