@@ -21,6 +21,9 @@ class App {
   addEventListeners() {
     document.body.addEventListener("click", (event) => {
       this.handleFormClick(event);
+      this.selectNote(event);
+      this.openModal(event);
+      this.deleteNote(event);
     });
 
     document.body.addEventListener("mouseover", (event) => {
