@@ -42,6 +42,13 @@ class App {
       this.style.display = "none";
     });
 
+    this.$colorTooltip.addEventListener("click", (event) => {
+      const color = event.target.dataset.color;
+      if (color) {
+        this.editNoteColor(color);
+      }
+    });
+
     this.$form.addEventListener("submit", (event) => {
       event.preventDefault();
       const title = this.$noteTitle.value;
