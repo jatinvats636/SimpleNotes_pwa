@@ -142,6 +142,15 @@ class App {
     localStorage.setItem("notes", JSON.stringify(this.notes));
   }
 
+  selectNote(event) {
+    const $selectedNote = event.target.closest(".note");
+    if (!$selectedNote) return;
+    const [$noteTitle, $noteText] = $selectedNote.children;
+    this.title = $noteTitle.innerText;
+    this.text = $noteText.innerText;
+    this.id = $selectedNote.dataset.id;
+  }
+
   displayNotes() {
     const hasNotes = this.notes.length > 0;
     this.$placeholder.style.display = hasNotes ? "none" : "flex";
