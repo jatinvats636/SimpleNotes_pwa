@@ -100,6 +100,11 @@ class App {
     this.$colorTooltip.style.display = "flex";
   }
 
+  closeTooltip(event) {
+    if (!event.target.matches(".toolbar-color")) return;
+    this.$colorTooltip.style.display = "none";
+  }
+
   addNote({ title, text }) {
     const newNote = {
       title,
@@ -110,6 +115,15 @@ class App {
     this.notes = [...this.notes, newNote];
     this.render();
     this.closeForm();
+  }
+
+  editNote() {
+    const title = this.$modalTitle.value;
+    const text = this.$modalText.value;
+    this.notes = this.notes.map((note) =>
+      note.id === Number(this.id) ? { ...note, title, text } : note
+    );
+    this.render();
   }
 
   render() {
