@@ -60,6 +60,10 @@ class App {
         this.addNote({ title, text });
       }
     });
+
+    this.$modalCloseButton.addEventListener("click", (event) => {
+      this.closeModal(event);
+    });
   }
 
   handleFormClick(event) {
@@ -195,6 +199,11 @@ class App {
       this.$modalTitle.value = this.title;
       this.$modalText.value = this.text;
     }
+  }
+
+  closeModal(event) {
+    this.editNote();
+    this.$modal.classList.toggle("open-modal");
   }
 }
 
