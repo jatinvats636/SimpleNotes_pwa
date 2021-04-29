@@ -14,6 +14,7 @@ class App {
     this.$modalTitle = document.querySelector(".modal-title");
     this.$modalText = document.querySelector(".modal-text");
     this.$colorTooltip = document.querySelector("#color-tooltip");
+    this.$modalCloseButton = document.querySelector(".modal-close-button");
     this.render();
     this.addEventListeners();
   }
