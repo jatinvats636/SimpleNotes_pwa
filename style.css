@@ -310,12 +310,12 @@ input:focus {
   position: absolute;
   top: -40;
   background: rgba(0, 0, 0, 0);
-  border: 1px solid black;
+  border: 1px solid rgba(0, 0, 0, 0.39);
   left: 0;
   z-index: 20;
   border-radius: 5px;
   display: none;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.329);
   padding: 5px 7px 3px;
   width: 136px;
   height: 40px;
