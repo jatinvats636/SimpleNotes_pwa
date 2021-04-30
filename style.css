@@ -377,12 +377,12 @@ input:focus {
   padding: 8px 24px;
   border-radius: 4px;
   border-color: transparent !important;
-  background-color: rgb(251, 251, 251);
+  background-color: rgba(0, 0, 0, 0.158);
   cursor: pointer;
 }
 
 .modal-close-button:hover {
-  background-color: rgba(95, 99, 104, 0.039);
+  background-color: rgba(0, 0, 0, 0.226);
 }
 
 .open-modal {
