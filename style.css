@@ -53,7 +53,7 @@ body {
   background-color: #000000;
   position: relative;
   border: none;
-  margin: 1px;
+  margin: 0px;
   border-radius: 8px;
   transition-duration: 0.218s;
   transition-property: background, border, opacity, box-shadow, transform;
