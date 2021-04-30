@@ -35,13 +35,13 @@ class App {
       this.closeTooltip(event);
     });
 
-    this.$colorTooltip.addEventListener("mouseover", function () {
-      this.style.display = "flex";
-    });
+    // this.$colorTooltip.addEventListener("mouseover", function () {
+    //   this.style.display = "flex";
+    // });
 
-    this.$colorTooltip.addEventListener("mouseout", function () {
-      this.style.display = "none";
-    });
+    // this.$colorTooltip.addEventListener("mouseout", function () {
+    //   this.style.display = "none";
+    // });
 
     this.$colorTooltip.addEventListener("click", (event) => {
       const color = event.target.dataset.color;
