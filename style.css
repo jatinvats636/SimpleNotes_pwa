@@ -314,7 +314,8 @@ input:focus {
   left: 0;
   z-index: 20;
   border-radius: 5px;
-  display: none;
+  display: flex;
+  flex-direction: row-reverse;
   /* box-shadow: 0 1px 4px rgba(0, 0, 0, 0.329); */
   padding: 3px 5px;
   width: 110px;
