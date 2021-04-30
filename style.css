@@ -310,7 +310,7 @@ input:focus {
   position: absolute;
   top: -40;
   background: rgba(0, 0, 0, 0);
-  border: 1px solid rgba(0, 0, 0, 0.39);
+  border: none;
   left: 0;
   z-index: 20;
   border-radius: 5px;
