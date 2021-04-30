@@ -177,9 +177,6 @@ class App {
           <div class="note-text">${note.text}</div>
           <div class="toolbar-container">
             <div class="toolbar">
-              <img class="toolbar-color" data-id=${
-                note.id
-              } src="https://www.flaticon.com/svg/vstatic/svg/2919/2919562.svg?token=exp=1619620343~hmac=e870f1677571c2460d0b1b1f56089470">
               <img data-id=${
                 note.id
               } class="toolbar-delete" src="https://www.flaticon.com/svg/vstatic/svg/1828/1828843.svg?token=exp=1619620294~hmac=47cdcfae48048c6551966de960976edd">
