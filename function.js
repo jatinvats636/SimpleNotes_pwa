@@ -179,7 +179,7 @@ class App {
             <div class="toolbar">
               <img data-id=${
                 note.id
-              } class="toolbar-delete" src="https://www.flaticon.com/svg/vstatic/svg/1828/1828843.svg?token=exp=1619620294~hmac=47cdcfae48048c6551966de960976edd">
+              } class="toolbar-delete" src="https://img.icons8.com/metro/64/000000/delete-sign.png">
             </div>
           </div>
         </div>
