@@ -91,7 +91,7 @@ header {
 
 #noteText {
   background-color: #000;
-  color: #fff;
+  color: #f1f1f1d8;
   display: none;
   width: calc(100% - 10px);
   min-height: 43px;
@@ -128,6 +128,7 @@ header {
   letter-spacing: 0.00625em;
   border: 0;
   background-color: #121212;
+  color: #fff;
   overflow: hidden;
   position: relative;
   font-size: 1.375rem;
@@ -148,9 +149,9 @@ header {
   letter-spacing: 0.00625em;
   border: 0;
   background-color: #121212;
+  color: #f1f1f1d8;
   overflow: hidden;
   position: relative;
-  color: #17181a;
   font-size: 14px;
   line-height: 19px;
   min-height: 46px;
