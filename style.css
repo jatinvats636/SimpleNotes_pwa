@@ -310,8 +310,8 @@ input:focus {
   position: relative;
   background: rgba(0, 0, 0, 0);
   /* border: 1px solid rgba(0, 0, 0, 0.39); */
-  left: -20px;
-
+  left: 0px;
+  bottom: -10px;
   z-index: 20;
   border-radius: 5px;
   display: flex;
