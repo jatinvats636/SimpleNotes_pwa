@@ -326,7 +326,7 @@ input:focus {
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  border: 1px solid #dedede;
+  border: 1px solid #d3d3d3;
 }
 
 .color-option:hover {
