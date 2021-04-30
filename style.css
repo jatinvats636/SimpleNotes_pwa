@@ -42,7 +42,7 @@ body {
 #formContainer {
   border-radius: 8px;
   border: 0.5px solid #9e9e9e;
-  margin: 25px auto 15px auto;
+  margin: 25px auto;
   max-width: 496px;
   transition-duration: 0.2s;
   transition-property: background, border, opacity, box-shadow, transform;
