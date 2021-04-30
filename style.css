@@ -149,7 +149,7 @@ header {
   letter-spacing: 0.00625em;
   border: 0;
   background-color: #121212;
-  color: #f1f1f1d8;
+  color: #ffffffd8;
   overflow: hidden;
   position: relative;
   font-size: 14px;
@@ -367,7 +367,7 @@ input:focus {
   float: right;
   margin: 0.2em 0;
   box-sizing: border-box;
-  color: rgba(0, 0, 0, 0.87);
+  color: #c2c2c2de;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -384,7 +384,8 @@ input:focus {
 }
 
 .modal-close-button:hover {
-  background-color: rgba(0, 0, 0, 0.226);
+  background-color: rgba(0, 0, 0, 0.363);
+  color: #d3d2d2f1;
 }
 
 .open-modal {
