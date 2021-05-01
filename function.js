@@ -35,7 +35,7 @@ class App {
       this.closeTooltip(event);
     });
 
-    // this.$colorTooltip.addEventListener("mouseover", function () {
+    // this.$colorTooltip.addEventListener("mouseover",
     this.$colorTooltip.addEventListener("click", (event) => {
       const color = event.target.dataset.color;
       if (color) {
