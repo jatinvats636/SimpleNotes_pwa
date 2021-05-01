@@ -53,6 +53,7 @@ body {
   background-color: #000000;
   position: relative;
   border: none;
+  width: 100%;
   margin: 0px;
   border-radius: 8px;
   transition-duration: 0.218s;
@@ -235,7 +236,7 @@ input:focus {
   #formContainer {
     border-radius: 8px;
     border: 0.5px solid #9e9e9e;
-    margin: 25px 15px 15px 15px;
+    margin: 25px auto;
     max-width: 496px;
     transition-duration: 0.2s;
     transition-property: background, border, opacity, box-shadow, transform;
