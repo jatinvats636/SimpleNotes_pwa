@@ -119,8 +119,9 @@ class App {
   editNote() {
     const title = this.$modalTitle.value;
     const text = this.$modalText.value;
+    const tstamp = new Date.now();
     this.notes = this.notes.map((note) =>
-      note.id === Number(this.id) ? { ...note, title, text } : note
+      note.id === Number(this.id) ? { ...note, title, text, tstamp } : note
     );
     this.render();
   }
