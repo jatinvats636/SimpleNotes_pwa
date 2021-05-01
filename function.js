@@ -46,7 +46,7 @@ class App {
     this.$form.addEventListener("submit", (event) => {
       event.preventDefault();
       const title = this.$noteTitle.value;
-      const text = this.$noteText.value;
+      const text = this.tstamp.value;
       const hasNote = title || text;
       if (hasNote) {
         // add note
