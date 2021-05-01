@@ -62,7 +62,7 @@ class App {
   handleFormClick(event) {
     const isFormClicked = this.$form.contains(event.target);
     const title = this.$noteTitle.value;
-    const text = this.$noteText.value;
+    const text = this.tstamp.value;
     const hasNote = title || text;
 
     if (isFormClicked) {
