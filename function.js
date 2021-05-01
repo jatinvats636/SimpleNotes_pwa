@@ -36,7 +36,6 @@ class App {
     });
 
     // this.$colorTooltip.addEventListener("mouseover", function () {
-    //   this.style.display = "flex";
     this.$colorTooltip.addEventListener("click", (event) => {
       const color = event.target.dataset.color;
       if (color) {
