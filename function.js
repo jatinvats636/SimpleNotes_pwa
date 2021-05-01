@@ -3,7 +3,7 @@ class App {
     this.notes = JSON.parse(localStorage.getItem("notes")) || [];
     this.title = "";
     this.text = "";
-    this.tstamp = "";
+    this.tstamp = new Date();
     this.id = "";
     this.$placeholder = document.querySelector("#placeholder");
     this.$form = document.querySelector("#form");
