@@ -200,8 +200,8 @@ input:focus {
   justify-content: space-between;
   margin: 16px;
   width: 250px;
-  border: 1px solid #d3d3d3;
-  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.801);
+  border: 1px solid #00000000;
+  box-shadow: 12px 3px 15px rgba(0, 0, 0, 0.801);
   box-sizing: border-box;
   overflow: hidden;
   position: relative;
