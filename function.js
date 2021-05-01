@@ -46,7 +46,7 @@ class App {
     this.$form.addEventListener("submit", (event) => {
       event.preventDefault();
       const title = this.$noteTitle.value;
-      const text = this.tstamp;
+      const text = this.$noteText.value;
       const hasNote = title || text;
       if (hasNote) {
         // add note
@@ -62,7 +62,7 @@ class App {
   handleFormClick(event) {
     const isFormClicked = this.$form.contains(event.target);
     const title = this.$noteTitle.value;
-    const text = this.tstamp;
+    const text = this.$noteText.value;
     const hasNote = title || text;
 
     if (isFormClicked) {
@@ -145,7 +145,7 @@ class App {
     if (!$selectedNote) return;
     const [$noteTitle, $noteText] = $selectedNote.children;
     this.title = $noteTitle.innerText;
-    this.text = tstamp;
+    this.text = $noteText.innerText;
     this.id = $selectedNote.dataset.id;
   }
 
