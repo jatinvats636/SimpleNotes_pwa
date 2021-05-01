@@ -222,7 +222,7 @@ input:focus {
     justify-content: space-between;
     margin: 12px;
     width: 42%;
-    border: 1px solid #d3d3d3;
+    border: 1px solid #00000000;
     box-sizing: border-box;
     overflow: hidden;
     position: relative;
