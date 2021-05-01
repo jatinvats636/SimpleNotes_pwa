@@ -402,4 +402,8 @@ input:focus {
     transition-property: background, border, opacity, box-shadow, transform;
     transition-timing-function: ease-in;
   }
+
+  .toolbar {
+    opacity: 1;
+  }
 }
