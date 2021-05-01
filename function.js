@@ -40,7 +40,6 @@ class App {
     // });
 
     // this.$colorTooltip.addEventListener("mouseout", function () {
-    //   this.style.display = "none";
 
     this.$colorTooltip.addEventListener("click", (event) => {
       const color = event.target.dataset.color;
