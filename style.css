@@ -407,4 +407,8 @@ input:focus {
   .toolbar {
     opacity: 0.9;
   }
+
+  .modal-content {
+    width: 20rem;
+  }
 }
