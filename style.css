@@ -405,11 +405,7 @@ input:focus {
   }
 
   .toolbar {
-    opacity: 0.7;
-  }
-
-  .toolbar-delete {
-    opacity: 0.7;
+    opacity: 0.9;
   }
 
   .modal-content {
@@ -417,11 +413,16 @@ input:focus {
   }
 
   .note-date {
+    position: relative;
+    top: 50%;
+    left: 0.3rem;
     font-size: 0.8rem;
     opacity: 0.7;
   }
   .toolbar-update {
+    position: relative;
+    top: 50%;
     width: 0.8rem;
-    opacity: 0.7;
+    opacity: 0.9;
   }
 }
