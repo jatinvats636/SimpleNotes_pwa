@@ -107,7 +107,7 @@ class App {
     const newNote = {
       title,
       text,
-      tstamp: new Date().toLocaleString(),
+      tstamp: new Date().toLocaleTimeString(),
       color: "#90ccf4",
       id: this.notes.length > 0 ? this.notes[this.notes.length - 1].id + 1 : 1,
     };
@@ -162,6 +162,7 @@ class App {
   displayNotes() {
     const hasNotes = this.notes.length > 0;
     this.$placeholder.style.display = hasNotes ? "none" : "flex";
+    // if(note.tstamp.getDate() === )
     this.$notes.innerHTML = this.notes
       .map(
         (note) => `
