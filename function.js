@@ -3,7 +3,7 @@ class App {
     this.notes = JSON.parse(localStorage.getItem("notes")) || [];
     this.title = "";
     this.text = "";
-    this.tstamp = new Date();
+    this.tstamp = document.lastModified;
     this.id = "";
     this.$placeholder = document.querySelector("#placeholder");
     this.$form = document.querySelector("#form");
@@ -107,7 +107,7 @@ class App {
     const newNote = {
       title,
       text,
-      tstamp: new Date(),
+      tstamp: this.lastModified,
       color: "#90ccf4",
       id: this.notes.length > 0 ? this.notes[this.notes.length - 1].id + 1 : 1,
     };
