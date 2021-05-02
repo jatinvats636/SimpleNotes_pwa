@@ -107,6 +107,7 @@ class App {
     const newNote = {
       title,
       text,
+      img_src: "/images/added.svg",
       tstamp: new Date().toLocaleTimeString(),
       color: "#90ccf4",
       id: this.notes.length > 0 ? this.notes[this.notes.length - 1].id + 1 : 1,
