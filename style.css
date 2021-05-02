@@ -411,4 +411,8 @@ input:focus {
   .modal-content {
     width: 20rem;
   }
+
+  .note-date {
+    font-size: 0.5rem;
+  }
 }

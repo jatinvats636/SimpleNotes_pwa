@@ -171,7 +171,7 @@ class App {
           <div class="${note.title && "note-title"}">${note.title}</div>
           <div class="note-text">${note.text}</div>
           <div class="toolbar-container">
-          <div class="note-date"><img class="toolbar-delete" src="/images/updated.svg"> ${
+          <div class="note-date"><img class="toolbar-update" src="/images/updated.svg"> ${
             note.tstamp
           }</div>
             <div class="toolbar">
