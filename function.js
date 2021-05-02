@@ -107,8 +107,8 @@ class App {
     const newNote = {
       title,
       text,
-      img_src: "/images/added.svg",
       tstamp: new Date().toLocaleTimeString(),
+      img_src: "/images/created.svg",
       color: "#90ccf4",
       id: this.notes.length > 0 ? this.notes[this.notes.length - 1].id + 1 : 1,
     };
@@ -120,7 +120,7 @@ class App {
   editNote() {
     const title = this.$modalTitle.value;
     const text = this.$modalText.value;
-    const img_src = "/image/updated.svg";
+    const img_src = "/images/edited.svg";
     const tstamp = new Date().toLocaleString();
     this.notes = this.notes.map((note) =>
       note.id === Number(this.id)
@@ -176,9 +176,9 @@ class App {
           <div class="${note.title && "note-title"}">${note.title}</div>
           <div class="note-text">${note.text}</div>
           <div class="toolbar-container">
-          <div class="note-tstamp"><img class="toolbar-img" src="/images/updated.svg"/><div class="note-date">${
-            note.tstamp
-          }</div></div>
+          <div class="note-tstamp"><img class="toolbar-img" src="${
+            note.img_src
+          }"/><div class="note-date">${note.tstamp}</div></div>
             <div class="toolbar">
               <img data-id=${
                 note.id
