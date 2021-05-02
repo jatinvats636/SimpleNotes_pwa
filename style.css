@@ -414,6 +414,7 @@ input:focus {
 
   .note-stamp {
     position: relative;
+    opacity: 0.9;
   }
 
   .note-date {
@@ -428,6 +429,5 @@ input:focus {
     top: 3px;
     left: -3px;
     width: 0.7rem;
-    opacity: 0.9;
   }
 }
