@@ -107,7 +107,7 @@ class App {
     const newNote = {
       title,
       text,
-      tstamp: new Date().toLocaleTimeString(),
+      tstamp: new Date().get,
       color: "#90ccf4",
       id: this.notes.length > 0 ? this.notes[this.notes.length - 1].id + 1 : 1,
     };
@@ -119,7 +119,7 @@ class App {
   editNote() {
     const title = this.$modalTitle.value;
     const text = this.$modalText.value;
-    const tstamp = new Date().toLocaleString();
+    const tstamp = new Date().toLocaleDateString();
     this.notes = this.notes.map((note) =>
       note.id === Number(this.id) ? { ...note, title, text, tstamp } : note
     );
