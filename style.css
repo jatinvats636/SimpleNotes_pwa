@@ -412,18 +412,23 @@ input:focus {
     width: 20rem;
   }
 
-  .note-stamp {
-    position: relative;
+  .note-tstamp {
+    position: absolute;
     opacity: 0.9;
   }
 
   .note-date {
-    position: inherit;
-    font-size: 0.8rem;
+    display: inline-block;
+    position: relative;
+    top: 0.5rem;
+    left: 0.4rem;
+    font-size: 0.9rem;
     opacity: 0.7;
   }
   .toolbar-update {
-    position: inherit;
+    position: relative;
+    top: 0.5rem;
+    left: 0.3rem;
     width: 0.7rem;
   }
 }
