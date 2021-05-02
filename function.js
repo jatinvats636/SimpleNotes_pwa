@@ -107,7 +107,7 @@ class App {
     const newNote = {
       title,
       text,
-      tstamp: new Date().get,
+      tstamp: new Date().toLocaleString(),
       color: "#90ccf4",
       id: this.notes.length > 0 ? this.notes[this.notes.length - 1].id + 1 : 1,
     };
