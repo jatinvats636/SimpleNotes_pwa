@@ -1,4 +1,4 @@
-var cacheName = "simple-note-pwa";
+var cacheName = "simple-note";
 var filesToCache = [
   "/",
   "/images/",
