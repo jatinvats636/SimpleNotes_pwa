@@ -1,6 +1,7 @@
 {
   "name": "SimpleNotes",
   "short_name": "SimpleNotes",
+  "scope": "/",
   "icons": [
     {
       "src": "windows10/SmallTile.scale-100.png",
