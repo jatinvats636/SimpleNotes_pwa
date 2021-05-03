@@ -1,0 +1,19 @@
+{
+  "dir": "ltr",
+  "lang": "en",
+  "name": "SimpleNotes",
+  "short_name": "SimpleNotes",
+  "scope": "/",
+  "display": "browser",
+  "start_url": "https://simple-notesapp.netlify.app/",
+  "background_color": "#000000",
+  "theme_color": "transparent",
+  "description": "",
+  "orientation": "any",
+  "related_applications": [],
+  "prefer_related_applications": "false",
+  "icons": [],
+  "url": "https://simple-notesapp.netlify.app/",
+  "generated": true,
+  "screenshots": []
+}
