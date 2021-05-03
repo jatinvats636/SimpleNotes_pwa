@@ -2,8 +2,8 @@ importScripts(
   "https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-sw.js"
 );
 
-var CACHE = "simple-note";
-var offlineFallbackPage = [
+var cacheName = "simple-note";
+var filesToCache = [
   "/",
   "/images/",
   "/index.html",
