@@ -516,7 +516,7 @@
     {
       "src": "firefox/firefox-general-16-16.png",
       "sizes": "16x16"
-    })
+    }
   ],
   "url": "https://simple-notesapp.netlify.app/",
   "generated": true,
