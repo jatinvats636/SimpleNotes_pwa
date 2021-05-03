@@ -3,8 +3,14 @@ var filesToCache = [
   "/",
   "/images/",
   "/index.html",
-  "/css/style.css",
-  "/js/function.js",
+  "/style.css",
+  "/function.js",
+  "/android/",
+  "/chrome/",
+  "/firefox/",
+  "/msteams/",
+  "/windows/",
+  "/windows10/",
 ];
 
 /* Start the service worker and cache all of the app's content */
