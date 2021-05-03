@@ -508,8 +508,8 @@
     }
   ],
   "lang": "en-US",
-  "start_url": "./index.html",
-  "display": "browser",
+  "start_url": "/index.html",
+  "display": "standalone",
   "background_color": "#000000",
   "theme_color": "transparent"
 }
