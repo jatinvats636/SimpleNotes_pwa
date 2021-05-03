@@ -19,6 +19,15 @@
   <meta name="msapplication-TileImage" content="/images/logo446.png">
   <meta name="msapplication-TileColor" content="black">
   <meta name="theme-color" content="black" />
+  <script>
+    window.onload = () => {
+      "use strict";
+
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("/sw.js");
+      }
+    };
+  </script>
   <script type="module">
     // This is the "Offline page" service worker
     /*
