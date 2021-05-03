@@ -1,11 +1,3 @@
-window.onload = () => {
-  "use strict";
-
-  if ("serviceWorker" in navigator) {
-    navigator.serviceWorker.register("./sw.js");
-  }
-};
-
 class App {
   constructor() {
     this.notes = JSON.parse(localStorage.getItem("notes")) || [];
