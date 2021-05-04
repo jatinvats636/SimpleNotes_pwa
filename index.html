@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="./style.css">
   </link>
   <link rel="manifest" href="/manifest.json">
-  <link rel="icon" href="/images/logo446.png" type="image/x-icon" />
+  <link rel="icon" href="/images/launchericon-144.png" type="image/x-icon" />
   <link rel="apple-touch-icon" href="/images/logo446.png">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="translucent">
@@ -35,7 +35,7 @@
     </div>
   </div>
   <header>
-    <img class="headerLogo" src="/images/logo223.png">
+    <img class="headerLogo" src="/images/launchericon-192.png">
     <h2 class="headerText">SimpleNotes</h2>
   </header>
   <main>
@@ -50,7 +50,7 @@
     </div>
     <div id="notes"></div>
     <div id="placeholder">
-      <img id="placeholderLogo" src="/images/logo223.png">
+      <img id="placeholderLogo" src="/images/launchericon-192.png">
       <p id="placeholderText">Notes you add appear here...</p>
     </div>
     <!-- <div id="color-tooltip">
@@ -60,6 +60,14 @@
     </div> -->
   </main>
   <script src="/function.js"></script>
+  <script>
+    window.onload = () => {
+      "use strict";
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("./sw.js");
+      }
+    };
+  </script>
 </body>
 
 </html>
