@@ -20,13 +20,13 @@
     {
       "src": "images/launchericon-144.png",
       "sizes": "144x144",
-      "type": "image/png",
-      "purpose": "maskable"
+      "type": "image/png"
     },
     {
       "src": "images/launchericon-192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "maskable"
     },
     {
       "src": "images/launchericon-512.png",
