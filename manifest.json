@@ -3,10 +3,9 @@
   "short_name": "SimpleNotes",
   "icons": [
     {
-      "src": "images/launchericon-144.png",
-      "sizes": "144x144",
-      "type": "image/png",
-      "purpose": "maskable"
+      "src": "images/launchericon-48.png",
+      "sizes": "48x48",
+      "type": "image/png"
     },
     {
       "src": "images/launchericon-512.png",
